@@ -1,0 +1,102 @@
+@import "helpers";
+@import "config";
+@import "owl";
+
+body {
+	font: {
+		family: 'Lato', sans-serif;
+		size: 14px;
+	}
+}
+
+.btn {
+	padding: 10px 30px;
+	border: 2px solid #FFF;
+	color: #FFF;
+	display: inline-block;
+}
+
+
+.main-banner {
+	background: url(../img/main-image.jpg) no-repeat 0 0 / cover;
+	padding: 150px 0;
+	@include sm-down {
+		padding: 50px 0;
+	}
+}
+
+.reason {
+	
+	&__icon {
+		border-radius: 50%;
+		border: 2px solid;
+		width: 100px;
+		height: 100px;
+	}
+
+	&__title {
+		&:after {
+			@extend %down-stripe;
+			margin: {
+				left: auto;
+				right: auto;
+			}
+		}
+	}
+}
+
+.introducing {
+	&__title {
+		letter-spacing: 0.5px;
+		&:after {
+			@extend %down-stripe;
+		}
+	}
+}
+
+.reviews {
+	background: rgba(map-get($colors, reviews), 0.85) url(../img/review-background.png) no-repeat center center / cover;
+	padding: 75px 0;
+}
+
+.review {
+	&__pic {
+		width: 80px;
+		height: 80px;
+		background: white;
+		border-radius: 50%;
+		margin: 0 auto 15px auto;
+	}
+	&__cite {
+		line-height: 1.5rem;
+	}
+	&__author {
+		margin-top: 1rem;
+		&:before {
+			content: "—";
+			margin-right: .5em;
+		}
+	}
+}
+
+.cuisines {
+	&__title {
+		&::after {
+			@extend %down-stripe;
+			margin: {
+				left: auto;
+				right: auto;
+			};
+		}		
+	}
+}
+
+.cuisine {
+	&__title {
+		letter-spacing: 1px;
+	}
+
+	&__layer {
+		background: rgba(#000, 0.35);
+	}
+}

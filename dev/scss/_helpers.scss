@@ -1,0 +1,12 @@
+@import "util/media";
+@import "util/mixins";
+@import "config";
+
+%down-stripe {
+	content: "";
+	width: 4rem;
+	height: .05rem;
+	background: map-get($colors, red);
+	display: block;
+	margin-top: 10px;
+}

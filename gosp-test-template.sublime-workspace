@@ -1,0 +1,2133 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"brose",
+				"browserSync"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"ooc",
+				"oocss-docs"
+			],
+			[
+				"temp",
+				"templateUrl"
+			],
+			[
+				"d",
+				"docs/"
+			],
+			[
+				"s",
+				"stylus/"
+			],
+			[
+				"de",
+				"dev/"
+			],
+			[
+				"cente",
+				"centered"
+			],
+			[
+				"pal",
+				"palette"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"visib",
+				"visible"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"fle",
+				"flex-grow"
+			],
+			[
+				"flex-",
+				"flex-basis"
+			],
+			[
+				"flex",
+				"flex-basis"
+			],
+			[
+				"border-s",
+				"border-size"
+			],
+			[
+				"bord",
+				"borders"
+			],
+			[
+				"side",
+				"sides"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"o",
+				"bootstrap.css"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"hide-med",
+				"hide-md-above"
+			],
+			[
+				"__t",
+				"__type"
+			],
+			[
+				"__",
+				"__cost"
+			],
+			[
+				"padid",
+				"padding-right"
+			],
+			[
+				"stringi",
+				"querystring.stringify"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"pol",
+				"poligono"
+			],
+			[
+				"polygon",
+				"Polygon"
+			],
+			[
+				"geo",
+				"GeoJSON"
+			],
+			[
+				"spa",
+				"samp\tTag"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"array_",
+				"array_flip"
+			],
+			[
+				"re",
+				"re\trequire"
+			],
+			[
+				"viaj",
+				"viaje2"
+			],
+			[
+				"update",
+				"updateParams"
+			],
+			[
+				"con",
+				"console.dir();"
+			],
+			[
+				"info",
+				"console.info();"
+			],
+			[
+				"vi",
+				"viaje"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dev/scss/base.scss",
+			"settings":
+			{
+				"buffer_size": 15,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/pug/tpl/base.pug",
+			"settings":
+			{
+				"buffer_size": 1146,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/styles.scss",
+			"settings":
+			{
+				"buffer_size": 692,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/_owl.scss",
+			"settings":
+			{
+				"buffer_size": 16,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/_helpers.scss",
+			"settings":
+			{
+				"buffer_size": 198,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/scss/_config.scss",
+			"settings":
+			{
+				"buffer_size": 45,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$gosp-version: \"1.0.18\";\n$gosp-responsive: true;\n$gosp-grid-type: 'flex'; // flex | float | inline\n$gosp-grid-columns: 12;\n$gosp-grid-fractionary: false;\n$gosp-grid-column-gutter: 0px;\n\n$gosp-breakpoints: (\n\txs: (\n\t\tprefix: 'col-xs',\n\t\tmax: em(480px)\n\t),\n\tsm: (\n\t\tprefix: 'col-sm',\n\t\tmin: em(481px), \n\t\tmax: em(768px)\n\t),\n\tmd: (\n\t\tprefix: 'col-md',\n\t\tmin: em(769px), \n\t\tmax: em(1280px)\n\t),\n\tlg: (\n\t\tprefix: 'col-lg',\n\t\tmin: em(1281px), \n\t\tmax: em(1600px)\n\t),\n\txl: (\n\t\tprefix: 'col-xl',\n\t\tmin: em(1601px)\n\t)\n);\n\n$gosp-media-queries: xs, sm, sm-up, sm-down, md, md-up, md-down, lg, lg-up, lg-down, xl;\n\n$gosp-font-family-sans-serif:  \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n$gosp-font-family-serif:       Georgia, \"Times New Roman\", Times, serif;\n$gosp-font-family-monospace:   Menlo, Monaco, Consolas, \"Courier New\", monospace;\n$gosp-font-family-base:        $gosp-font-family-sans-serif;\n\n$gosp-font-size-base:          16px;\n$gosp-font-size-large:         ceil(($gosp-font-size-base * 1.25)); // ~18px\n$gosp-font-size-small:         ceil(($gosp-font-size-base * 0.85)); // ~12px\n\n$gosp-font-size-h1:            floor(($gosp-font-size-base * 2.6)); // ~36px\n$gosp-font-size-h2:            floor(($gosp-font-size-base * 2.15)); // ~30px\n$gosp-font-size-h3:            ceil(($gosp-font-size-base * 1.7)); // ~24px\n$gosp-font-size-h4:            ceil(($gosp-font-size-base * 1.25)); // ~18px\n$gosp-font-size-h5:            $gosp-font-size-base;\n$gosp-font-size-h6:            ceil(($gosp-font-size-base * 0.85)); // ~12px\n\n$gosp-line-height-base:        1.428571429; // 20/14\n$gosp-line-height-computed:    floor(($gosp-font-size-base * $gosp-line-height-base)); // ~20px\n\n$gosp-headings-font-family:    inherit;\n$gosp-headings-font-weight:    500;\n$gosp-headings-line-height:    1.1;\n$gosp-headings-color:          inherit;\n",
+			"file": "node_modules/gosp.css/src/util/_config.scss",
+			"file_size": 1830,
+			"file_write_time": 121436361000000000,
+			"settings":
+			{
+				"buffer_size": 1830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/css/styles.css",
+			"settings":
+			{
+				"buffer_size": 744,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/pug/index.pug",
+			"settings":
+			{
+				"buffer_size": 2795,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 945,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 1016,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 738,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gosp-test-template.sublime-project",
+			"settings":
+			{
+				"buffer_size": 93,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3775,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/mnt/projects/www/moradaui/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3776,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS - Compressed.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 398.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"python",
+				"Set Syntax: Pug (Python)"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"terminal",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"term",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"md",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"json pretty",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"json prett",
+				"Pretty JSON: Validate"
+			],
+			[
+				"d",
+				"File: Delete"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"ter",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"m",
+				"File: Move"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"r",
+				"File: Rename"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"remo",
+				"Git: Remote"
+			],
+			[
+				"termi",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new fil",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeeScript (Angular.js)"
+			],
+			[
+				"folder",
+				"File: New Folder Relative to Current View"
+			],
+			[
+				"filder",
+				"File: New Folder Relative to Current View"
+			],
+			[
+				"syntax: sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"exp",
+				"Format CSS: Expanded"
+			],
+			[
+				"sass",
+				"Build With: SASS - Compressed"
+			],
+			[
+				"ex",
+				"Format CSS: Expanded"
+			],
+			[
+				"e",
+				"Format CSS: Expanded"
+			],
+			[
+				"css:",
+				"Format CSS: Compressed"
+			],
+			[
+				"file dele",
+				"File: Delete"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Quick Add"
+			],
+			[
+				"git pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"expa",
+				"Format CSS: Expanded"
+			],
+			[
+				"expand",
+				"Format CSS: Expanded"
+			],
+			[
+				"forma",
+				"Format CSS: Expanded"
+			],
+			[
+				"git diff",
+				"Git: Diff"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ecma",
+				"Set Syntax: Ecmascript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"json pre",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"synt js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt json",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntax json",
+				"Set Syntax: JSON"
+			],
+			[
+				"synta",
+				"Set Syntax: JSON"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			]
+		],
+		"width": 555.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/mnt/projects/www/gosp-test-template",
+		"/mnt/projects/www/gosp-test-template/static",
+		"/mnt/projects/www/gosp-test-template/static/libs",
+		"/mnt/projects/www/gosp-test-template/static/libs/owl.carousel",
+		"/mnt/projects/www/gosp-test-template/static/libs/owl.carousel/dist",
+		"/mnt/projects/www/gosp-test-template/static/libs/owl.carousel/dist/assets"
+	],
+	"file_history":
+	[
+		"/mnt/projects/www/montseruiz.local/dev/coffee/scripts.coffee",
+		"/home/fer/.config/autostart/XProfile.desktop",
+		"/home/fer/.config/autostart/gnome-keyring-ssh.desktop",
+		"/mnt/projects/www/gosp-test-template/static/css/base.css",
+		"/mnt/projects/www/gosp-test-template/node_modules/serve-index/public/style.css",
+		"/mnt/projects/www/gosp-test-template/node_modules/css-tree/lib/syntax/node/StyleSheet.js",
+		"/mnt/projects/www/gosp/package.json",
+		"/mnt/projects/www/gosp/src/util/_config.scss",
+		"/mnt/projects/www/gosp/README.md",
+		"/mnt/projects/www/gosp/changelog.md",
+		"/mnt/projects/www/gosp/src/util/helpers/_table.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_position.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_list.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_height.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_font.scss",
+		"/mnt/projects/www/gosp/oocss.sublime-project",
+		"/mnt/projects/www/gosp/docs/gulpfile.js",
+		"/mnt/projects/www/gosp/gulpfile.js",
+		"/mnt/projects/www/gosp/src/gosp.scss",
+		"/mnt/projects/www/gosp/src/util/_grid.scss",
+		"/mnt/projects/www/gosp/src/util/_responsive-classes.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_text.scss",
+		"/mnt/projects/www/gosp/dist/gosp.css",
+		"/mnt/projects/www/gosp/src/util/helpers/_visible-and-hidden.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_generals.scss",
+		"/mnt/projects/www/gosp/dist/gosp.css.map",
+		"/mnt/projects/www/gosp/dist/gosp.min.css.map",
+		"/mnt/projects/www/gosp/src/util/_mixins.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_flex.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_opacity-and-visibility.scss",
+		"/mnt/projects/www/gosp/src/util/_class-mapping.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_background.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_border.scss",
+		"/mnt/projects/www/gosp/src/util/_functions.scss",
+		"/mnt/projects/www/gosp/src/util/helpers/_display.scss",
+		"/mnt/projects/www/dorantes.local/gulpfile.js",
+		"/mnt/projects/www/gosp/src/util/_media.scss",
+		"/mnt/projects/www/gosp/dist/gosp.min.css",
+		"/mnt/projects/www/gosp/dist/style.min.css",
+		"/mnt/projects/www/oocss-sass/dist/gosp.css.map",
+		"/mnt/projects/www/oocss-sass/src/util/_debug.scss",
+		"/mnt/projects/www/oocss-sass/src/util/_config.scss",
+		"/mnt/projects/www/oocss-sass/dist/gosp.css",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_position.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_table.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_text.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_border.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_box-sizing.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_colors.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_cursor.scss",
+		"/mnt/projects/www/oocss-sass/src/util/_grid.scss",
+		"/mnt/projects/www/oocss-sass/src/util/_mixins.scss",
+		"/mnt/projects/www/oocss-sass/src/util/_media.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_flex.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_float.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_display.scss",
+		"/mnt/projects/www/oocss-sass/src/util/_functions.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_font.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_form.scss",
+		"/mnt/projects/www/oocss-sass/src/util/_responsive-classes.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_visible-and-hidden.scss",
+		"/mnt/projects/www/oocss-sass/src/gosp.scss",
+		"/mnt/projects/www/oocss-sass/dist/gosp.min.css",
+		"/mnt/projects/www/oocss-sass/gulpfile.js",
+		"/mnt/projects/www/oocss-sass/dist/style.min.css",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_margin-and-padding.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_opacity-and-visibility.scss",
+		"/mnt/projects/www/oocss-sass/docs/index.pug",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_generals.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_height.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_list.scss",
+		"/mnt/projects/www/oocss-sass/src/util/_variables.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_background.scss",
+		"/mnt/projects/www/oocss-sass/src/util/_class-mapping.scss",
+		"/mnt/projects/www/oocss-sass/dist/style.css",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_z-index.scss",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_vertical-align.scss",
+		"/mnt/projects/www/oocss-sass/README.md",
+		"/mnt/projects/www/oocss-sass/.gitignore",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/_anchor.scss",
+		"/mnt/projects/www/oocss-sass/src/util/_placeholders.scss",
+		"/mnt/projects/www/oocss-sass/test.html",
+		"/mnt/projects/www/oocss-sass/src/style.scss",
+		"/mnt/projects/www/oocss-sass/src/asd.scss",
+		"/mnt/projects/www/oocss-sass/src/asd.css",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/vertical-align.scss",
+		"/mnt/projects/www/oocss-sass/src/util/mixins.styl",
+		"/mnt/projects/www/oocss-sass/package.json",
+		"/mnt/projects/www/oocss-sass/dist/style.css.map",
+		"/mnt/projects/www/oocss-sass/src/style.css",
+		"/mnt/projects/www/oocss-sass/oocss.sublime-project",
+		"/home/fer/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/fer/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/asd.css",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/asd.scss",
+		"/mnt/projects/www/oocss-sass/src/util/variables.styl",
+		"/mnt/projects/www/oocss-sass/src/util/helpers/visible-and-hidden.css",
+		"/mnt/projects/www/oocss/src/style.css",
+		"/mnt/projects/www/oocss/src/placeholders.scss",
+		"/mnt/projects/www/oocss/src/util/mixins.styl",
+		"/mnt/projects/www/oocss/oocss.sublime-project",
+		"/mnt/projects/www/oocss-docs/dev/coffee/config.coffee",
+		"/mnt/projects/www/oocss-docs/dev/coffee/controllers.coffee",
+		"/mnt/projects/www/oocss-docs/dev/pug/views/templates/margin-and-padding.pug",
+		"/mnt/projects/www/oocss-docs/gulpfile.js",
+		"/mnt/projects/www/oocss-docs/oocss-docs.sublime-project",
+		"/mnt/projects/www/oocss-docs/dev/pug/index.pug",
+		"/mnt/projects/www/oocss-docs/dev/pug/inc/layout.pug",
+		"/mnt/projects/www/oocss-docs/docs/index.html",
+		"/mnt/projects/www/oocss-docs (copia)/partials/background.pug",
+		"/mnt/projects/www/oocss-docs/dev/coffee/scripts.coffee",
+		"/mnt/projects/www/oocss-docs/dev/coffee/app.coffee",
+		"/mnt/projects/www/oocss-docs/docs/assets/js/config.js",
+		"/mnt/projects/www/oocss-docs (copia)/partials/margin-and-padding.pug",
+		"/mnt/projects/www/oocss-docs (copia)/partials/list.pug",
+		"/mnt/projects/www/oocss-docs (copia)/partials/height.pug",
+		"/mnt/projects/www/oocss-docs (copia)/partials/font.pug",
+		"/mnt/projects/www/oocss-docs (copia)/partials/flex.pug",
+		"/mnt/projects/www/oocss-docs (copia)/partials/display.pug",
+		"/mnt/projects/www/oocss-docs (copia)/partials/cursor.pug",
+		"/mnt/projects/www/oocss-docs/docs/assets/js/app.js",
+		"/mnt/projects/www/oocss-docs/dev/pug/views/templates/grid-flex.pug",
+		"/mnt/projects/www/oocss-docs/docs/assets/templates/grid-flex.html",
+		"/mnt/projects/www/oocss-docs/docs/assets/templates/flexbox.html",
+		"/mnt/projects/www/oocss-docs/docs/assets/js/scripts.js",
+		"/mnt/projects/www/oocss-docs/dev/pug/views/templates/flexbox.pug",
+		"/mnt/projects/www/oocss-docs/dev/pug/views/templates/float.pug",
+		"/mnt/projects/www/oocss-docs/dev/pug/views/templates/border.pug"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 124.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"background",
+			"default",
+			"theme",
+			"babel",
+			"item",
+			"es2015",
+			"env",
+			"es2015",
+			"babel",
+			"es2015",
+			"{ \"modules\": false }",
+			"presets",
+			"babel",
+			"this",
+			"owl",
+			"carousel",
+			"config",
+			"John",
+			"Doe",
+			"carousel",
+			"owl",
+			"dist",
+			"owl",
+			"carousel",
+			"min",
+			"src",
+			"script",
+			"scripts",
+			"js",
+			"else",
+			"then",
+			"if ",
+			"else",
+			"then",
+			"unless",
+			"function",
+			"row",
+			"folder_exclude",
+			"folder_pattern_exclude",
+			".dib",
+			"img(",
+			"img",
+			"reload",
+			"ios",
+			"up",
+			"first",
+			"p.",
+			"p",
+			"left",
+			"Introducing",
+			"stripe",
+			"h2.reason__title.ttu.fsp18.fw900",
+			"before",
+			"h2",
+			"reason",
+			".reasons__icon",
+			"radius",
+			"icon",
+			"reasons",
+			"pros",
+			"beneffits",
+			"p Lorem ipsum dolor sit amet conseqtur spectrum",
+			"Lorem ipsum dolor sit amet conseqtur spectrum",
+			"Title",
+			".icon.fg1",
+			".col-md-4.tac",
+			"h2",
+			".icon",
+			"burger",
+			".icon",
+			"im",
+			".col-md-4",
+			"ttu",
+			"small",
+			"block",
+			"h2",
+			"h3",
+			"layer",
+			"absolute",
+			"a",
+			"%\")",
+			"h100vh",
+			"img",
+			"sm-down-",
+			"div",
+			"db",
+			"p",
+			"main",
+			"footer",
+			"div",
+			"Login",
+			"root",
+			"sect",
+			"body",
+			"main",
+			"container",
+			"body",
+			"base",
+			"min"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dev/scss/base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dev/pug/tpl/base.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								622,
+								622
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.58.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/Pug/Syntaxes/Pug.tmLanguage"
+						},
+						"translation.x": 50.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dev/scss/styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"SL.80.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 385.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dev/scss/_owl.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dev/scss/_helpers.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"SL.31.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dev/scss/_config.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "node_modules/gosp.css/src/util/_config.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": true,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "static/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "dev/pug/index.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2542,
+								2542
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+							],
+							"SL.21.region_keys":
+							[
+							],
+							"SL.97.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Pug/Syntaxes/PyPug.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 526.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "dev/js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"SL.28.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "static/js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"SL.35.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 184.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								667,
+								667
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "gosp-test-template.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"SL.42.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2350,
+								2350
+							]
+						],
+						"settings":
+						{
+							"SL.22.region_keys":
+							[
+							],
+							"SL.39.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/mnt/projects/www/moradaui/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2135,
+								2135
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1212.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 122.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 128.0
+	},
+	"output.git-push":
+	{
+		"height": 128.0
+	},
+	"output.nodejs":
+	{
+		"height": 128.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gosp-test-template.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"dev/js/scripts.js"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"static/js/",
+				"static/js/scripts.js"
+			],
+			[
+				"ind",
+				"dev/pug/index.pug"
+			],
+			[
+				"base.p",
+				"dev/pug/tpl/base.pug"
+			],
+			[
+				"config.scss",
+				"dev/scss/_config.scss"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"base.css",
+				"static/css/base.css"
+			],
+			[
+				"helpers.sc",
+				"dev/scss/_helpers.scss"
+			],
+			[
+				"_config",
+				"node_modules/gosp.css/src/util/_config.scss"
+			],
+			[
+				"base",
+				"dev/pug/tpl/base.pug"
+			],
+			[
+				"styles.css",
+				"static/css/styles.css"
+			],
+			[
+				"style.css",
+				"node_modules/serve-index/public/style.css"
+			],
+			[
+				"styles.s",
+				"dev/scss/styles.scss"
+			],
+			[
+				"styles",
+				"node_modules/css-tree/lib/syntax/node/StyleSheet.js"
+			],
+			[
+				"base.",
+				"dev/pug/tpl/base.pug"
+			],
+			[
+				"chan",
+				"changelog.md"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"_medi",
+				"src/util/_media.scss"
+			],
+			[
+				".js",
+				"docs/assets/js/app.js"
+			],
+			[
+				"list",
+				"src/util/helpers/_list.scss"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"config",
+				"src/util/_config.scss"
+			],
+			[
+				"grid",
+				"src/util/_grid.scss"
+			],
+			[
+				"gener",
+				"src/util/helpers/_generals.scss"
+			],
+			[
+				"text",
+				"src/util/helpers/_text.scss"
+			],
+			[
+				"readm",
+				"README.md"
+			],
+			[
+				"gosp.cs",
+				"dist/gosp.css"
+			],
+			[
+				"mixins",
+				"src/util/_mixins.scss"
+			],
+			[
+				"config.s",
+				"src/util/_config.scss"
+			],
+			[
+				"gosp",
+				"src/gosp.scss"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"gosp.css",
+				"dist/gosp.css"
+			],
+			[
+				"displa",
+				"src/util/helpers/_display.scss"
+			],
+			[
+				"mixin",
+				"src/util/_mixins.scss"
+			],
+			[
+				"class",
+				"src/util/_class-mapping.scss"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"map",
+				"src/util/_class-mapping.scss"
+			],
+			[
+				"flex",
+				"src/util/helpers/_flex.scss"
+			],
+			[
+				"list.sc",
+				"src/util/helpers/_list.scss"
+			],
+			[
+				"g",
+				"gulpfile.js"
+			],
+			[
+				"table",
+				"src/util/helpers/_table.scss"
+			],
+			[
+				"gosp.",
+				"dist/gosp.css"
+			],
+			[
+				"font",
+				"src/util/helpers/_font.scss"
+			],
+			[
+				"posi",
+				"src/util/helpers/_position.scss"
+			],
+			[
+				"hei",
+				"src/util/helpers/_height.scss"
+			],
+			[
+				"opa",
+				"src/util/helpers/_opacity-and-visibility.scss"
+			],
+			[
+				"gene",
+				"src/util/helpers/_generals.scss"
+			],
+			[
+				"border",
+				"src/util/helpers/_border.scss"
+			],
+			[
+				"backgr",
+				"src/util/helpers/_background.scss"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"gosp.scss",
+				"src/gosp.scss"
+			],
+			[
+				"visible",
+				"src/util/helpers/_visible-and-hidden.scss"
+			],
+			[
+				"responsiv",
+				"src/util/_responsive-classes.scss"
+			],
+			[
+				"confi",
+				"src/util/_config.scss"
+			],
+			[
+				"subl",
+				"oocss.sublime-project"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"func",
+				"src/util/_functions.scss"
+			],
+			[
+				"pak",
+				"package.json"
+			],
+			[
+				"respo",
+				"src/util/_responsive-classes.scss"
+			],
+			[
+				"fuc",
+				"src/util/_functions.scss"
+			],
+			[
+				"dbu",
+				"src/util/_debug.scss"
+			],
+			[
+				"de",
+				"src/util/_debug.scss"
+			],
+			[
+				"debug",
+				"src/util/_debug.scss"
+			],
+			[
+				"functions",
+				"src/util/_functions.scss"
+			],
+			[
+				"conf",
+				"src/util/_config.scss"
+			],
+			[
+				"media",
+				"src/util/_media.scss"
+			],
+			[
+				"v",
+				"src/util/_variables.scss"
+			],
+			[
+				"var",
+				"src/util/_variables.scss"
+			],
+			[
+				"debu",
+				"src/util/_debug.scss"
+			],
+			[
+				"gu",
+				"gulpfile.js"
+			],
+			[
+				"va",
+				"src/util/_variables.scss"
+			],
+			[
+				"mix",
+				"src/util/_mixins.scss"
+			],
+			[
+				"mxins",
+				"src/util/_mixins.scss"
+			],
+			[
+				"style",
+				"dist/style.css"
+			],
+			[
+				"vari",
+				"src/util/_variables.scss"
+			],
+			[
+				"sty",
+				"dist/style.css"
+			],
+			[
+				"styl",
+				"dist/style.css"
+			],
+			[
+				"cla",
+				"src/util/_class-mapping.scss"
+			],
+			[
+				"clas",
+				"src/util/_class-mapping.scss"
+			],
+			[
+				"res",
+				"src/util/_responsive-classes.scss"
+			],
+			[
+				"color",
+				"src/util/helpers/_colors.scss"
+			],
+			[
+				"c",
+				"src/util/_responsive-classes.scss"
+			],
+			[
+				"funct",
+				"src/util/_functions.scss"
+			],
+			[
+				"ma",
+				"src/util/helpers/_margin-and-padding.scss"
+			],
+			[
+				"respon",
+				"src/util/_responsive-classes.scss"
+			],
+			[
+				"s",
+				"dist/style.css"
+			],
+			[
+				"margin",
+				"src/util/helpers/_margin-and-padding.scss"
+			],
+			[
+				"variables",
+				"src/util/_variables.scss"
+			],
+			[
+				"mar",
+				"src/util/helpers/_margin-and-padding.scss"
+			],
+			[
+				"mi",
+				"src/util/_mixins.scss"
+			],
+			[
+				"tex",
+				"src/util/helpers/_text.scss"
+			],
+			[
+				"maps",
+				"src/util/_class-mapping.scss"
+			],
+			[
+				"floa",
+				"src/util/helpers/_float.scss"
+			],
+			[
+				"varia",
+				"src/util/_variables.scss"
+			],
+			[
+				"bor",
+				"src/util/helpers/_border.scss"
+			],
+			[
+				"displ",
+				"src/util/helpers/_display.scss"
+			],
+			[
+				"resp",
+				"src/util/_responsive-classes.scss"
+			],
+			[
+				"variab",
+				"src/util/_variables.scss"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"tes",
+				"test.html"
+			],
+			[
+				"fun",
+				"src/util/_functions.scss"
+			],
+			[
+				"variabl",
+				"src/util/_variables.scss"
+			],
+			[
+				"padd",
+				"src/util/helpers/_margin-and-padding.scss"
+			],
+			[
+				"visi",
+				"src/util/helpers/_visible-and-hidden.scss"
+			],
+			[
+				"ge",
+				"src/util/helpers/_generals.scss"
+			],
+			[
+				"test",
+				"test.html"
+			],
+			[
+				"z-",
+				"src/util/helpers/_z-index.scss"
+			],
+			[
+				"util/",
+				"src/util/_grid.scss"
+			],
+			[
+				"_gr",
+				"src/util/_grid.scss"
+			],
+			[
+				"lis",
+				"src/util/helpers/_list.scss"
+			],
+			[
+				"he",
+				"src/util/helpers/height.styl"
+			],
+			[
+				"generals",
+				"src/util/helpers/generals.styl"
+			],
+			[
+				"cur",
+				"src/util/helpers/cursor.styl"
+			],
+			[
+				"box-",
+				"src/util/helpers/box-sizing.styl"
+			],
+			[
+				"colors",
+				"src/util/helpers/colors.styl"
+			],
+			[
+				"style.sc",
+				"src/style.scss"
+			],
+			[
+				"place",
+				"src/_placeholders.scss"
+			],
+			[
+				"visib",
+				"src/util/helpers/visible-and-hidden.scss"
+			],
+			[
+				"index",
+				"dev/pug/index.pug"
+			],
+			[
+				"la",
+				"dev/pug/inc/layout.pug"
+			],
+			[
+				"pug",
+				"dev/pug/index.pug"
+			],
+			[
+				"conto",
+				"dev/coffee/controllers.coffee"
+			],
+			[
+				"visibl",
+				"dev/pug/views/templates/visible-and-hidden.pug"
+			],
+			[
+				"ser",
+				"dev/coffee/services.coffee"
+			],
+			[
+				"direc",
+				"dev/coffee/directives.coffee"
+			],
+			[
+				"layo",
+				"dev/pug/inc/layout.pug"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "moradaui",
+		"selected_items":
+		[
+			[
+				"moradaui",
+				"/mnt/projects/www/morada.ui.sublime-workspace"
+			],
+			[
+				"",
+				"/mnt/projects/www/morada.ui.sublime-project"
+			],
+			[
+				"montseruiz",
+				"/mnt/projects/www/montseruiz.local/montseruiz.sublime-project"
+			],
+			[
+				"monts",
+				"/mnt/projects/www/montseruiz.local/montseruiz.sublime-project"
+			],
+			[
+				"montse",
+				"/mnt/projects/www/montseruiz.local/montseruiz.sublime-project"
+			],
+			[
+				"dorant",
+				"/mnt/projects/www/dorantes.local/dorantes.sublime-project"
+			],
+			[
+				"dor",
+				"/mnt/projects/www/dorantes.local/dorantes.sublime-project"
+			],
+			[
+				"oocss-d",
+				"/mnt/projects/www/oocss-docs/oocss-docs.sublime-project"
+			],
+			[
+				"oocss",
+				"/mnt/projects/www/oocss/oocss.sublime-project"
+			],
+			[
+				"ooccss",
+				"/mnt/projects/www/oocss/oocss.sublime-project"
+			],
+			[
+				"oocss-",
+				"/mnt/projects/www/oocss-docs/oocss-docs.sublime-project"
+			],
+			[
+				"morad",
+				"/mnt/projects/www/morada.ui.sublime-project"
+			],
+			[
+				"mora",
+				"/mnt/projects/www/morada.sublime-project"
+			],
+			[
+				"morada",
+				"/mnt/projects/www/morada.sublime-project"
+			],
+			[
+				"yappphp",
+				"/mnt/projects/yappphp.sublime-project"
+			],
+			[
+				"mor",
+				"/mnt/projects/www/morada.sublime-project"
+			],
+			[
+				"yapp",
+				"/www/yappjs.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 43.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 836.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
